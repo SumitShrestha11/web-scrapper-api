@@ -10,7 +10,7 @@ CORS(app)
 
 @app.route("/")
 def hello():
-    return "This is working!"
+    return "<h1>This is working!</h1>"
 
 @app.route("/news", methods=['GET'])
 def news():
