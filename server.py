@@ -31,6 +31,6 @@ if __name__=='__main__':
 	# print (f'{global_news} \n {local_news} \n {political_news}')
 	#print(all_news)
 
-	app.run(debug=True)
+	app.run()
     
 
